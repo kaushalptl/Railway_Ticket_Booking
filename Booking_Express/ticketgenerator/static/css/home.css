@@ -1,0 +1,35 @@
+{% load static %}
+
+.jumbotron{
+margin-top: 300px;
+background: rgba(0,0,0,0);
+color: red;
+size: 30px;
+width: 1000px;
+}
+.page-header{
+border: 0px;
+}
+body{
+background: {% static "images/homepage.jpg" %}
+background-repeat: no repeat;
+background-size: cover;
+}
+h1{
+color: red;
+font-size: 70px;
+font-family: Lucida Sans Unicode;
+}
+
+h1 small{
+color: yellow;
+font-size:20px;
+font-family: Lucida Sans Unicode;
+}
+
+.c table{
+
+align : 'left';
+border : 2px;
+
+}
